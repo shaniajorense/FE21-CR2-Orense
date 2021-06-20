@@ -1,0 +1,84 @@
+$background: rgb(91,25,26);
+$white: white;
+
+
+body{
+    width: 100%;
+}
+
+#banner{
+    display: flex;
+    justify-content:space-around;
+    background-color:$background;
+    padding: 35px 0 35px 0.4px;
+    width: 100%;
+    
+    
+}
+
+.first{
+    width: 300px;
+}
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: -1px;
+
+}
+
+li{
+    margin: 20px;
+    font-size: 19pt;   
+}
+
+li a{
+    text-decoration: none;
+    color: $white;
+}
+
+.date{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    
+    
+}
+
+article{
+    padding: 70px;
+}
+
+h1{
+    background-color: $background;
+    padding: 20px;
+    color: $white;
+}
+
+
+
+
+.footer-image{
+    float: right;
+    background-color: black;
+    margin-top: -60px;
+    margin-bottom: -80px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 17pt;
+    background-color: black;
+    color: white;
+    margin-top: -84px;
+    padding-top: 30px;
+    padding-bottom:30px ;
+    width: 100%;
+}

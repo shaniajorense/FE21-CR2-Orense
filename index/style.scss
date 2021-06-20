@@ -1,0 +1,141 @@
+body{
+    width: 100%;
+}
+
+#banner{
+    display: flex;
+    justify-content:space-around;
+    background-color:rgb(91,25,26);
+    padding: 35px 0 35px 0.4px;
+    width: 100%;
+}
+
+.first{
+    width: 300px;
+    position: sticky;
+}
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: -1px;
+
+}
+
+li{
+    margin: 20px;
+    font-size: 19pt;   
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.date{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ .container{
+     display: grid;
+     grid-template-columns: 20% 20% 20%;
+     grid-auto-rows: minmax(10vh, auto);
+     gap: 2em 2em;
+     justify-content: center;
+     margin-top: 80px;
+     margin-bottom: 80px;   
+ }
+ 
+ .top{
+     grid-column: 1/4;
+     background-color: rgb(196,196,196);
+ }
+
+ .column{
+     width: 100%;
+     height: 90%;
+     object-fit: cover;  
+ }
+
+
+ .pic{
+     width: 100%;
+     height: 100%;
+ }
+     
+ 
+ p{
+     background-color: black;
+     color: white;
+     text-align: center;
+     height: 50px;
+     font-size: 14pt;
+     margin-top: -6px;
+     padding: 10px;
+ }
+
+ a{
+     display: flex;
+     justify-content: center;
+ }
+
+ .container2{
+     display: grid;
+     grid-template-columns: 20% 20%;
+     grid-auto-rows: minmax(10vh, auto);
+     gap: 2em 2em;
+     justify-content: center;
+     margin-top: 80px;
+     margin-bottom: 80px;
+
+ }
+ 
+ .footer-image{
+     float: right;
+     background-color: black;
+     margin-top: -60px;
+     margin-bottom: -80px;
+     
+     
+ }
+ 
+ footer{
+     display: flex;
+     justify-content: center;
+     font-size: 17pt;
+     background-color: black;
+     color: white;
+     margin-top: -84px;
+     padding-top: 30px;
+     padding-bottom:30px ;
+     width: 100%;
+ }
+
+
+ @media screen and (max-width:480px){
+.container{
+        display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px;
+    
+     }
+ 
+
+ .container2{
+    display: grid;
+grid-template-columns: 1fr;
+padding: 1em;
+grid-row-gap: 100px;
+
+ }
+}
+
+
+ 
